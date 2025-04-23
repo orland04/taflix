@@ -8,16 +8,18 @@
 
     .navbar img { height: 20px; }
     .nav-links { display: flex; align-items: center; gap: 10px; }
-    .nav-links a { color: white; text-decoration: none; margin: 0 5px; }
+    .nav-links a { color: darkred; margin: 20px 20px; margin-top: 30px; padding-top: 20px; border: white; font-size: 30px;
+  -webkit-text-stroke: .5px #FFFFFF; /* Stroke width and color */
+  font-weight: bold;}
 
     .search-bar {
       padding: 5px; border-radius: 5px; border: none;
     }
-    .logo {
-     
-  width: auto; /* or any size you want */
-  height: 200px; /* keeps aspect ratio */
-
+   .logo {
+  width: 100px !important;
+  height: auto !important;
+  max-width: none;
+  max-height: none;
 }
 
     .banner {
