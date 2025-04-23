@@ -15,8 +15,8 @@
     }
     .logo {
      
-  width: 150px; /* or any size you want */
-  height: auto; /* keeps aspect ratio */
+  width: auto; /* or any size you want */
+  height: 200px; /* keeps aspect ratio */
 
 }
 
